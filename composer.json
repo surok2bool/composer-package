@@ -1,0 +1,14 @@
+{
+    "name": "surok/composer-package",
+    "description": "test package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Surok\\ComposerPackage\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.3"
+    }
+}
